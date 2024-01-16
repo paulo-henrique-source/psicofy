@@ -1,7 +1,6 @@
-import type { NextComponentType } from "next";
 import Head from "next/head";
 
-export const HeadComponent: NextComponentType = () => {
+export const HeadComponent: React.FC = () => {
     return (
         <Head>
             <title>Stephany Brito</title>

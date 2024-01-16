@@ -21,8 +21,10 @@ const Main: NextPage = () => {
                 <Header handleChangeTab={handleChangeTab} />
                 {/* {activeTab === ActiveTab.HOME && <Home />}
                 {activeTab === ActiveTab.ABOUT && <About />} */}
-                <Home />
-                <About />
+                <div className="container">
+                    <Home />
+                    <About />
+                </div>
             </Background>
         </div>
     );

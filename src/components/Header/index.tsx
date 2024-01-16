@@ -1,6 +1,7 @@
 import * as Styles from "./styles";
 import React from "react";
 import { ActiveTab } from "../../models/enumerators";
+import { Squash as HamburgerMenu } from "hamburger-react";
 
 interface IHeaderProps {
     handleChangeTab: (number: ActiveTab) => void;
@@ -34,6 +35,9 @@ export const Header: React.FC<IHeaderProps> = ({ handleChangeTab }) => {
                 >
                     Agenda
                 </div>
+            </div>
+            <div className="hamburguer-menu">
+                <HamburgerMenu />
             </div>
         </Styles.Wrapper>
     );

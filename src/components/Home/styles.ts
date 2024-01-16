@@ -17,6 +17,17 @@ export const Wrapper = styled.div`
         font-size: 5rem;
         font-weight: 900;
         padding-left: 0.375rem;
+
+        @media (max-width: 835px) {
+            font-size: 4rem;
+        }
+
+        @media (max-width: 590px) {
+            font-size: 4rem;
+        }
+        @media (max-width: 565px) {
+            font-size: 2rem;
+        }
     }
 
     .psicologaName {
@@ -25,17 +36,75 @@ export const Wrapper = styled.div`
         letter-spacing: -0.1875rem;
         top: 2.6rem;
         position: absolute;
+
+        @media (max-width: 835px) {
+            font-size: 4rem;
+        }
+
+        @media (max-width: 590px) {
+            font-size: 3rem;
+        }
+
+        @media (max-width: 565px) {
+            font-size: 2rem;
+            white-space: nowrap;
+        }
+    }
+
+    .crpContainer {
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        white-space: nowrap;
+
+        @media (max-width: 1270px) {
+            margin-top: 12rem;
+        }
+
+        @media (max-width: 826px) {
+            margin-top: 11rem;
+        }
+
+        @media (max-width: 590px) {
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 565px) {
+            margin-top: 0rem;
+        }
     }
 
     .crpText {
         margin-top: 2.4rem;
         margin-left: 0.5rem;
+        font-size: 2rem;
+
+        @media (max-width: 835px) {
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 590px) {
+            font-size: 2rem;
+        }
+
+        @media (max-width: 565px) {
+            font-size: 1.5rem;
+        }
     }
 
     .mainDiv {
         border-left: 2px solid white;
         padding-left: 3.75rem;
         margin-bottom: 4.125rem;
+
+        @media (max-width: 835px) {
+            padding-left: 2.75rem;
+            margin-bottom: 3.125rem;
+        }
+
+        @media (max-width: 590px) {
+            padding-left: 1.75rem;
+            margin-bottom: 2.125rem;
+        }
     }
 
     .footerDiv {

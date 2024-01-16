@@ -1,10 +1,7 @@
-import type { NextComponentType } from "next";
 import * as Styles from "./styles";
-import { BsWhatsapp, BsInstagram } from "react-icons/bs";
-import { MdOutlineEmail } from "react-icons/md";
 import Image from "next/image";
 
-export const About: NextComponentType = () => {
+export const About: React.FC = () => {
     return (
         <>
             <Styles.Wrapper>

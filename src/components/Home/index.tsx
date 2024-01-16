@@ -1,10 +1,9 @@
-import type { NextComponentType } from "next";
 import * as Styles from "./styles";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import Image from "next/image";
 
-export const Home: NextComponentType = () => {
+export const Home: React.FC = () => {
     return (
         <>
             <Styles.Wrapper>
@@ -13,7 +12,9 @@ export const Home: NextComponentType = () => {
                         <span className="psicoText">PSICÓLOGA</span>
                         <span className="psicologaName">Stephany C. Brito</span>
                     </section>
-                    <span className="crpText">CRP: 08/</span>
+                </div>
+                <div className="crpContainer">
+                    <span className="crpText">CRP-08/29281</span>
                 </div>
 
                 <div className="footerDiv">
